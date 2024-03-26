@@ -6,6 +6,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Canvas Background="PaleTurquoise" Height="200" Width="200">
+            <Path Fill="Violet" Data="M 0 100 a 100, 100 0 1 1 200, 0 a 100, 100 0 1 1 -200, 
+                  0 M 30 100 a 70, 70 0 1 1 140, 0 a 70, 70 0 1 1 -140, 0"/>
+        </Canvas>
 
     </Grid>
 </Window>
